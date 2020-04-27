@@ -48,7 +48,7 @@ private extension ViewController {
         lblExpandable.numberOfCollapsedLines = 3
         lblExpandable.textColor = .white
         lblExpandable.gradientStartColor = .white
-        lblExpandable.gradientEndColor = .clear
+        lblExpandable.gradientEndColor = .init(white: 1, alpha: 0.05)
         lblExpandable.delegate = self
     }
 
